@@ -1,0 +1,17 @@
+variable;definition;unit;type;value;comment
+Block;BlockID of the 10 site blocks;NA;factor;NA;1 block consisting of all 4 field types
+TypNumeric;Field Type in numeric order;NA;numeric;1 = 3yr+, 2 = 1yr-GM, 3 = 2yr-GM, 4 = 1yr-FAKT;
+FlowerFieldType;field Type id;NA;factor;3yr+ = fields sown 3 years priror to surveys consisting of perennial seed mixtures, 1yr-GM = half of fields sown with Göttingen mixture in its first year successional stage, 2yr-GM = half of fields sown with Göttingen mixture in its seccond year successional stage, 1yr-FAKT = fields sown with annual plants in the year of the survey;
+Transect;transect ID;NA;factor;1. Conrtol = control grass path, 2. field margin = field margin, 3. field centre = field centre;
+FieldID;unique field ID per site combined by Block and TypNumeric;NA;factor;NA;e.g. block.1_field.1 (for Block = 1 and TypNumeric = 1)
+SurveyRound;survey round numbered by date order field was visited;NA;factor;NA;
+Date;date of sampling;NA;character;NA;
+Taxon;whole taxon name (from family to species level);NA;character;NA;
+Genus;genus of identified leafhopper taxon;NA;factor;NA;
+Species;species (2nd half) of identified leafhopper taxon;NA;factor;NA;
+Count;abundance of individuals of respective taxon;NA;numeric;NA;
+Subfamily;subfamily of identified leafhopper taxon;NA;factor;NA;
+Family;family of identified leafhopper taxon;NA;factor;NA;
+Age;stage of developement of respective leafhopper taxon;NA;factor;l = larvae, ad = adult;
+LifeStrategy;life strategy of resective leafhopper taxon;NA;factor;oligotop, stenotop, changing, pioneer, eurytop;
+RedList;red list status (Germany) of resective leafhopper taxon;NA;factor;* = not Threatened, V = Near Threatened , 3 = Threatened , 2 = Highly Threatened;accoding to Nickel et al. (2016)
