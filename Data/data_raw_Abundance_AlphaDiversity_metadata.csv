@@ -1,0 +1,17 @@
+variable;definition;unit;type;value;comment
+;line number;NA;numeric;NA;
+Block;BlockID of the 10 site blocks;NA;factor;NA;1 block consisting of all 4 field types
+Typ;Field Type in numeric order;NA;numeric;1 = 3yr+, 2 = 1yr-GM, 3 = 2yr-GM, 4 = 1yr-FAKT;
+FlowerFieldType;field Type ID;NA;factor;3yr+ = fields sown 3 years priror to surveys consisting of perennial seed mixtures, 1yr-GM = half of fields sown with Göttingen mixture in its first year successional stage, 2yr-GM = half of fields sown with Göttingen mixture in its seccond year successional stage, 1yr-FAKT = fields sown with annual plants in the year of the survey;
+Transect;transect ID;NA;factor;1. Conrtol = control grass path, 2. field margin = field margin, 3. field centre = field centre;
+FieldID;unique field ID per site combined by Block and TypNumeric;NA;factor;NA;e.g. block.1_field.1 (for Block = 1 and TypNumeric = 1)
+SurveyRound;survey round numbered by date order field was visited;NA;factor;NA;
+Date;date of sampling;NA;character;NA;
+ind.count;total number of all leafhopper individuals for respective field ID;NA;numeric;NA;
+taxon.count;total number of all leafhopper taxa (genus & species) for respective field ID;NA;numeric;NA;
+shannon.diversity;Shannon diversity index for respective field ID;NA;numeric;NA;
+juldat;mean survey date per survey round (2nd or third);NA;numeric;NA;control for seasonal effects
+juldat.centered;deviation of mean survey date per survey round (2nd or third);NA;numeric;NA;control for seasonal effects
+Field;Field ID (combines Block and Typ / block and field);NA;factor;NA;
+X;short form of lon coodinates of respective field;NA;numeric;NA;WGS84 coordinate system
+Y;short form of lat coodinates of respective field;NA;numeric;NA;WGS84 coordinate system

@@ -1,0 +1,12 @@
+variable;definition;unit;type;value;comment
+;line number;NA;numeric;NA;
+Block;BlockID of the 10 site blocks;NA;factor;NA;1 block consisting of all 4 field types
+FlowerFieldType;field Type ID;NA;factor;3yr+ = fields sown 3 years priror to surveys consisting of perennial seed mixtures, 1yr-GM = half of fields sown with Göttingen mixture in its first year successional stage, 2yr-GM = half of fields sown with Göttingen mixture in its seccond year successional stage, 1yr-FAKT = fields sown with annual plants in the year of the survey;
+Transect;transect ID;NA;factor;1.  control grass path, 2. field margin, 3. field centre;
+Species;leafhopper soecies name (genus abbrevated);NA;character;NA;
+LifeStrategy;life strategy of resective leafhopper taxon;NA;factor;oligotop, stenotop, changing, pioneer, eurytop;
+Ecotype;ecological guild (ecotype) for respective leafhopper species;NA;factor;NA;accoding to Nickel (2003), see also Mühlethaler et al. (2018) for abbrevation explanation
+Phagy_Nickel;ecological guild (phagy) for respective leafhopper species;NA;factor;m1= monophagous on single plant species, m2 =monophagous on single plant genus, o1 = oligophag on single plant family o2 = oligophagous on two plant families or max. six different species from different families, p = polyphagous on at least seven different species from at least three different families;"accoding to Nickel (2003), a ""?"" implies unsure/unproofed"
+FoodPlant_Nickel;all listed food plants (family, genus or species level) for respective leafhopper species;NA;character;NA;accoding to Nickel (2003)
+RedList;red list status (Germany) of resective leafhopper taxon;NA;factor;* = not Threatened, V = Near Threatened , 3 = Threatened , 2 = Highly Threatened;
+tot.Count;total individual count for respective leafhopper species;NA;numeric;NA;
